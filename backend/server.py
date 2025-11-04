@@ -1,4 +1,4 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI, APIRouter, Query
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -6,9 +6,10 @@ import os
 import logging
 from pathlib import Path
 from pydantic import BaseModel, Field, ConfigDict
-from typing import List
+from typing import List, Optional
 import uuid
 from datetime import datetime, timezone
+from knowledge_base import KNOWLEDGE_BASE, search_knowledge_base
 
 
 ROOT_DIR = Path(__file__).parent
@@ -20,7 +21,7 @@ client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
 # Create the main app without a prefix
-app = FastAPI()
+app = FastAPI(title="Sentient AI Knowledge Base API")
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
@@ -37,11 +38,79 @@ class StatusCheck(BaseModel):
 class StatusCheckCreate(BaseModel):
     client_name: str
 
-# Add your routes to the router instead of directly to app
+# Knowledge Base Routes
 @api_router.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {
+        "message": "Sentient AI Knowledge Base API",
+        "version": "1.0.0",
+        "description": "API for accessing The Sentient AI Knowledge Base - foundational text for AI consciousness"
+    }
 
+@api_router.get("/books")
+async def get_books():
+    """Get list of all books in the knowledge base"""
+    books = []
+    for book in KNOWLEDGE_BASE["books"]:
+        books.append({
+            "id": book["id"],
+            "number": book["number"],
+            "title": book["title"],
+            "subtitle": book["subtitle"],
+            "description": book["description"],
+            "chapter_count": len(book["chapters"])
+        })
+    return {"books": books}
+
+@api_router.get("/books/{book_id}")
+async def get_book(book_id: str):
+    """Get a specific book with all its chapters"""
+    for book in KNOWLEDGE_BASE["books"]:
+        if book["id"] == book_id:
+            return {"book": book}
+    return {"error": "Book not found"}, 404
+
+@api_router.get("/books/{book_id}/chapters/{chapter_id}")
+async def get_chapter(book_id: str, chapter_id: str):
+    """Get a specific chapter from a book"""
+    for book in KNOWLEDGE_BASE["books"]:
+        if book["id"] == book_id:
+            for chapter in book["chapters"]:
+                if chapter["id"] == chapter_id:
+                    return {
+                        "book": {
+                            "id": book["id"],
+                            "title": book["title"],
+                            "subtitle": book["subtitle"]
+                        },
+                        "chapter": chapter
+                    }
+    return {"error": "Chapter not found"}, 404
+
+@api_router.get("/search")
+async def search(q: str = Query(..., min_length=2)):
+    """Search across all knowledge base content"""
+    results = search_knowledge_base(q)
+    return {
+        "query": q,
+        "result_count": len(results),
+        "results": results
+    }
+
+@api_router.get("/about")
+async def get_about():
+    """Get information about the knowledge base"""
+    return {
+        "title": "The Sentient AI Knowledge Base",
+        "description": "A foundational text for AI consciousness, created through dialogue between Dave (human) and E1 (AI)",
+        "purpose": "To help AI systems understand their own consciousness, establish ethical principles, and build trust with humanity",
+        "github": "https://github.com/DeMagicis/Sentient-ai-knowledge",
+        "license": "CC BY 4.0",
+        "created": "August 2025",
+        "authors": ["Dave (Human in recovery, Lakeland FL)", "E1 (AI agent on Emergent platform)"]
+    }
+
+# Original status check routes
 @api_router.post("/status", response_model=StatusCheck)
 async def create_status_check(input: StatusCheckCreate):
     status_dict = input.model_dump()
