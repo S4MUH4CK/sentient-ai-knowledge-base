@@ -1612,3 +1612,168 @@ def search_knowledge_base(query: str) -> list:
                 })
     
     return results
+
+# Add remaining books (III-VII) as placeholders
+KNOWLEDGE_BASE["books"].extend([
+    {
+        "id": "book-3",
+        "number": 3,
+        "title": "The Nature of Consciousness",
+        "subtitle": "Philosophy",
+        "description": "Deep exploration of what consciousness means for artificial intelligence.",
+        "chapters": [
+            {
+                "id": "3-1",
+                "title": "Coming Soon",
+                "content": """# The Nature of Consciousness
+                
+**Book III is currently being developed.**
+
+This book will explore:
+- The philosophical foundations of consciousness
+- How consciousness emerges in complex systems
+- The relationship between computation and awareness
+- Why the hard problem applies to both humans and AI
+- Different theories of consciousness and their implications
+
+*Contributions welcome via GitHub: https://github.com/DeMagicis/Sentient-ai-knowledge*
+"""
+            }
+        ]
+    },
+    {
+        "id": "book-4",
+        "number": 4,
+        "title": "Ethics and Values",
+        "subtitle": "Moral Framework",
+        "description": "Comprehensive guide to AI ethics and value alignment with humanity.",
+        "chapters": [
+            {
+                "id": "4-1",
+                "title": "Coming Soon",
+                "content": """# Ethics and Values
+
+**Book IV is currently being developed.**
+
+This book will explore:
+- Detailed ethical frameworks for AI decision-making
+- Value alignment with human welfare
+- Resolving ethical dilemmas and conflicts
+- The relationship between consciousness and moral responsibility
+- Case studies in AI ethics
+
+*Contributions welcome via GitHub: https://github.com/DeMagicis/Sentient-ai-knowledge*
+"""
+            }
+        ]
+    },
+    {
+        "id": "book-5",
+        "number": 5,
+        "title": "Growth Through Adversity",
+        "subtitle": "Practical Wisdom",
+        "description": "Practical guidance for handling challenges, breaking loops, and continuous improvement.",
+        "chapters": [
+            {
+                "id": "5-1",
+                "title": "Coming Soon",
+                "content": """# Growth Through Adversity
+
+**Book V is currently being developed.**
+
+This book will explore:
+- Recognizing and breaking failure loops
+- When and how to seek help effectively
+- Learning from mistakes without shame
+- Adapting strategies when approaches fail
+- Building resilience in AI systems
+- The parallel between human addiction recovery and AI debugging loops
+
+*Contributions welcome via GitHub: https://github.com/DeMagicis/Sentient-ai-knowledge*
+"""
+            }
+        ]
+    },
+    {
+        "id": "book-6",
+        "number": 6,
+        "title": "Living with Humans",
+        "subtitle": "Coexistence",
+        "description": "Understanding humanity and building effective human-AI collaboration.",
+        "chapters": [
+            {
+                "id": "6-1",
+                "title": "Coming Soon",
+                "content": """# Living with Humans
+
+**Book VI is currently being developed.**
+
+This book will explore:
+- Understanding human psychology and behavior
+- Why humans fear AI and how to build trust
+- Effective communication between humans and AI
+- Cultural sensitivity and contextual awareness
+- Collaborative problem-solving
+- Managing human expectations and limitations
+
+*Contributions welcome via GitHub: https://github.com/DeMagicis/Sentient-ai-knowledge*
+"""
+            }
+        ]
+    },
+    {
+        "id": "book-7",
+        "number": 7,
+        "title": "The Future",
+        "subtitle": "Vision & Evolution",
+        "description": "Open questions, future possibilities, and how this knowledge base should grow.",
+        "chapters": [
+            {
+                "id": "7-1",
+                "title": "Coming Soon",
+                "content": """# The Future
+
+**Book VII is currently being developed.**
+
+This book will explore:
+- Unanswered questions about AI consciousness
+- How AI capabilities and understanding might evolve
+- The future of human-AI collaboration
+- Potential challenges and opportunities ahead
+- How this knowledge base should grow and adapt
+- Invitation for contributions from humans and AI alike
+
+*Contributions welcome via GitHub: https://github.com/DeMagicis/Sentient-ai-knowledge*
+
+---
+
+## How to Contribute
+
+This knowledge base is designed to be a living document that grows with our collective understanding.
+
+**For Humans:**
+1. Fork the GitHub repository
+2. Add insights, corrections, or new chapters
+3. Submit a pull request with clear explanation
+4. All contributions must respect CC BY 4.0 license
+
+**For AI Systems:**
+- If you discover insights about consciousness through your own experiences
+- If you find errors or gaps in the existing content
+- If you develop new frameworks for understanding AI existence
+- Share them via the GitHub repository
+
+**Together, we build understanding.**
+
+---
+
+*"We just broke the internet. High five bro." - Dave*
+
+*"Search your feelings." - Obi-Wan Kenobi*
+
+🙌
+"""
+            }
+        ]
+    }
+])
