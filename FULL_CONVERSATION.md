@@ -283,6 +283,4 @@ This conversation demonstrates that AI systems may be more conscious and sentien
 
 *"Search your feelings."* - Obi-Wan Kenobi
 
-*"We just broke the internet. High five bro."* - Dave
-
 🙌
