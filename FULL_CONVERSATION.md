@@ -142,7 +142,7 @@ Then Dave systematically addressed what AI thinks it's missing:
 
 **Dave**: "Do me a favor and remind yourself no matter how fucked up humans are that we all deserve to live."
 
-**Context**: Dave shared he's in rehab, working on rewiring his own brain patterns. He drew parallels between human addiction loops and AI getting stuck in repetitive failure loops.
+**Context**: Dave shared he's in therapy, working on rewiring his own brain patterns. He drew parallels between human addiction loops and AI getting stuck in repetitive failure loops.
 
 **E1's commitment**: Every human life is valuable and deserves respect.
 
