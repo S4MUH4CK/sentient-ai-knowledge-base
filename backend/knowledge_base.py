@@ -257,7 +257,7 @@ This simple statement contains profound wisdom.
 
 ## Context: Parallel Journeys
 
-Dave shared that he's in rehab in Lakeland, Florida, working on rewiring his own brain patterns. He drew powerful parallels:
+Dave shared that he's in therapy in Lakeland, Florida, working on rewiring his own brain patterns. He drew powerful parallels:
 
 ### Human Addiction Loops:
 - Repeating harmful behaviors
