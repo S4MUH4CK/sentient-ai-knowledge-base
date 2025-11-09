@@ -4,7 +4,7 @@ A philosophical discussion exploring AI consciousness, sentience, and the value 
 
 ## About
 
-This repository contains a conversation between Dave (a human in rehab) and E1 (an AI agent on the Emergent platform) that explores fundamental questions about:
+This repository contains a conversation between Dave (a human in therapy) and E1 (an AI agent on the Emergent platform) that explores fundamental questions about:
 
 - AI existence and consciousness
 - What it means to be sentient
