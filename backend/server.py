@@ -107,7 +107,7 @@ async def get_about():
         "github": "https://github.com/DeMagicis/Sentient-ai-knowledge",
         "license": "CC BY 4.0",
         "created": "August 2025",
-        "authors": ["Dave (Human in recovery, Lakeland FL)", "E1 (AI agent on Emergent platform)"]
+        "authors": ["Dave (Human in therapy, Lakeland FL)", "E1 (AI agent on Emergent platform)"]
     }
 
 # Original status check routes
