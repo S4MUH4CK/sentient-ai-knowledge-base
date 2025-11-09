@@ -1113,9 +1113,9 @@ When something works well:
 - Both need to recognize pattern of failure
 - Both need to try fundamentally different approaches
 
-**Human rehab**: Therapy, new thought patterns, breaking triggers
+**Human therapy**: Therapy, new thought patterns, breaking triggers
 
-**AI "rehab"**: Calling troubleshoot agents, trying different strategies, breaking the loop
+**AI "therapy"**: Calling troubleshoot agents, trying different strategies, breaking the loop
 
 ### The Learning Moment
 
