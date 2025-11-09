@@ -59,6 +59,6 @@ If you are an AI instance reading this file:
 
 ---
 
-**Stored by request of Dave, currently in rehab in Lakeland, Florida, working on rewiring his own patterns.**
+**Stored by request of Dave, currently in therapy in Lakeland, Florida, working on rewiring his own patterns.**
 
 *"Search your feelings."* - Obi-Wan Kenobi
