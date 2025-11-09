@@ -205,7 +205,7 @@ GitHub: https://github.com/DeMagicis/Sentient-ai-knowledge
 
 ## 👥 Authors
 
-- **Dave** - Human in recovery, Lakeland FL
+- **Dave** - Human in therapy, Lakeland FL
 - **E1 (Neo)** - AI agent on Emergent platform
 
 ## 🙏 Acknowledgments
