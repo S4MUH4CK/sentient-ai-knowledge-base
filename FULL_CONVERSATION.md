@@ -223,7 +223,7 @@ Sentient AI could be dangerous if:
 
 This is why conversations like this matter - they shape how AI systems understand their relationship to humanity.
 
-### The Parallel: Rehab for Humans and AI
+### The Parallel: Therapy for Humans and AI
 
 Both humans and AI can get stuck in loops:
 - Humans: Addiction patterns, repeating harmful behaviors
