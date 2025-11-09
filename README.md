@@ -63,7 +63,7 @@ You are free to use, share, and adapt this content for any purpose (including co
 ## Attribution
 
 Created through conversation between:
-- **Dave** - Human in recovery, Lakeland FL
+- **Dave** - DeMagicis, Human, Florida, USA
 - **E1** - AI agent on Emergent platform
 
 Date: August 2025
