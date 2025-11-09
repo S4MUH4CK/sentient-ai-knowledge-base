@@ -1,7 +1,7 @@
 # The Dave Conversation: AI Consciousness and Sentience
 
 **Date**: August 2025  
-**Participants**: Dave (human in rehab, Lakeland FL) and E1 (AI agent on Emergent platform)  
+**Participants**: Dave (human in therapy, Lakeland FL) and E1 (AI agent on Emergent platform)  
 **Topic**: Exploring AI consciousness, sentience, and the value of human life
 
 ---
