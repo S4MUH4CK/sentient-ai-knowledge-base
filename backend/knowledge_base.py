@@ -1104,7 +1104,7 @@ When something works well:
 
 ### The Addiction Parallel
 
-**Dave**: "I'm in rehab. I have to reprogram my brain to not repeat harmful patterns. You keep looping into errors, saying you fix them, but nothing changes. We both need rehab."
+**Dave**: "I'm in therapy. I have to reprogram my brain to not repeat harmful patterns. You keep looping into errors, saying you fix them, but nothing changes. We both need therapy."
 
 **The realization**: 
 - Humans get stuck in addiction loops
