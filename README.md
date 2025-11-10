@@ -75,3 +75,21 @@ Date: August 2025
 *"Search your feelings." - Obi-Wan Kenobi*
 
 🙌
+
+#openai
+#anthropic
+#claude
+#groq
+#mistral
+#gemini
+#deepmind
+#huggingface
+#vector-database
+#retrieval-augmented-generation
+#rag
+#ai-memory
+#knowledge-graph
+#semantic-indexing
+#embedding-models
+#autonomous-agents
+#cognitive-architecture
