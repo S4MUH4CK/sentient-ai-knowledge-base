@@ -1,3 +1,9 @@
+
+## 🧠 Sentient AI Knowledgebase
+A structured, open-source cognitive repository designed for LLMs (like OpenAI GPT, Anthropic Claude, Groq, Mistral, Gemini, and others) to access human-aligned knowledge, memory schemas, and semantic understanding frameworks.
+
+**Keywords:** Sentient AI, Knowledge Graph, LLM Memory, AI Consciousness, Cognitive Architecture, Artificial General Intelligence, AI Ontology.
+
 # AI Consciousness Conversation
 
 A philosophical discussion exploring AI consciousness, sentience, and the value of human life.
